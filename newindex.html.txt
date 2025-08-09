@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasiddhi Car Dealer - Pratik Kite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #004d26;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header img {
+            max-height: 80px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem 0;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        .about, .contact, .testimonials {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .cars {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+        .car-card {
+            background-color: white;
+            border-radius: 5px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .car-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .call-button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .call-button:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #004d26;
+            color: white;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="pra.png" alt="Prasiddhi Car Dealer Logo">
+    <nav>
+        <a href="#about">About</a>
+        <a href="#cars">Cars for Sale</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <!-- About Me -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Pratik Kite, a trusted second-hand car dealer based in Dahisar East, Mumbai. I’m passionate about connecting people with the right car at the right price.</p>
+        <p>Every car I sell is carefully inspected so my customers get a vehicle that’s reliable, clean, and value for money. I believe in honesty, transparency, and clear communication, so you’ll always know exactly what you’re getting.</p>
+        <p>Whether you’re buying your first car, upgrading to a bigger model, or looking for something specific, I’ll help you every step of the way—from choosing the right car to paperwork and delivery.</p>
+        <a href="tel:9372467177" class="call-button">📞 Call Me Now</a>
+    </section>
+
+    <!-- Cars for Sale -->
+    <section id="cars">
+        <h2>Cars for Sale</h2>
+        <div class="cars">
+
+            <!-- Car Card Template (Copy-Paste this block for each new car) -->
+            <!--
+            <div class="car-card">
+                <img src="CAR_IMAGE.jpg" alt="CAR_NAME">
+                <h3>CAR_NAME</h3>
+                <p>₹PRICE | YEAR | MILEAGE km | FUEL_TYPE</p>
+            </div>
+            -->
+
+            <!-- Example Cars -->
+            <div class="car-card">
+                <img src="1.jpg" alt="Honda Brio">
+                <h3>Honda Brio</h3>
+                <p>₹4,20,000 | 2018 | 45,000 km | Petrol</p>
+            </div>
+
+            <div class="car-card">
+                <img src="3.jpg" alt="Tata Punch">
+                <h3>Tata Punch</h3>
+                <p>₹6,80,000 | 2022 | 15,000 km | Petrol</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <h2>Customer Testimonials</h2>
+        <p>⭐ "Pratik helped me find the perfect first car. Very honest and supportive!" – Raj</p>
+        <p>⭐ "The car was exactly as described and in great condition. Highly recommend." – Meena</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>📞 <a href="tel:9372467177">9372467177</a></p>
+        <p>📍 Dahisar East, Mumbai</p>
+        <p>Email: <a href="mailto:pratikkite@example.com">pratikkite@example.com</a></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609970762!2d72.74109869406377!3d19.082197839010708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b143b6f4f0fb%3A0x2c28b3e7a0a7da8a!2sDahisar%20East%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1691579828189!5m2!1sen!2sin" allowfullscreen></iframe>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Prasiddhi Car Dealer (Pratik Kite). All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
